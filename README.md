@@ -1,6 +1,6 @@
 Sample News Stream Android Application
 
-News APIs provided by The New York Times Media "https://developer.nytimes.com/".
+News APIs provided by The New York Times Media "https://developer.nytimes.com/"
 
 I've used "Dagger2 Dependency Injection" and "Retrofit" libraries together to get and show data very efficiently way.
 It's very useful on projects which has a big architecture.
@@ -17,9 +17,6 @@ The libraries in the project are below:
 * Picasso
 * RecyclerView
 * CardView 
-
-
-
 
 ![Screenshot](http://preview.ibb.co/fRweYS/1.png)
 ![Screenshot](http://preview.ibb.co/hY17L7/2.png)
