@@ -30,7 +30,7 @@ public class StreamActivity extends AppCompatActivity {
     private ArrayList<Result> results;
     private ProgressDialog dialog;
 
-    //Get methods with Named an
+    //Use calls with @Named annotations
     @Inject
     @Named("world")
     Call<TopStoryResponse> worldSectionCall;

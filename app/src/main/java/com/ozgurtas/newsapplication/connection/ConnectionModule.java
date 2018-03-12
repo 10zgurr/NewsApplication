@@ -74,7 +74,7 @@ public class ConnectionModule {
     }
 
 
-    /*Named annotations allow that you can make multiple Retrofit calls
+    /*@Named annotations allow that you can make multiple Retrofit calls
     and make unique and recognizable every provide methods in your injection class*/
     @Named("world")
     @Provides

@@ -38,7 +38,7 @@ public class DetailActivity extends AppCompatActivity {
         if (detail != null)
             binding.detail.setText(detail);
 
-        //Set images
+        //Set the largest image "multimedia.get(4)"
         if (multimedia.size() > 0) {
             if (multimedia.get(4) != null) {
                 Picasso.with(this).load(multimedia.get(4).getUrl()).into(binding.image);
