@@ -44,6 +44,8 @@ public class StreamActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Android Data Binding
         binding = DataBindingUtil.setContentView(this, R.layout.activity_stream);
 
         //Injection

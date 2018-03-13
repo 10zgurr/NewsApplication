@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Android Data Binding
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         intent = new Intent(MainActivity.this, StreamActivity.class);
 
